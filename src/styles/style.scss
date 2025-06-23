@@ -1,0 +1,15 @@
+// Variables y mixins
+@use './variables';
+@use './mixins';
+
+// Estilos base y tipografía
+@use './tipografia';
+@use './layouts';
+
+// Componentes reutilizables
+@use './buttons';
+
+// Estilos de páginas
+@use './components/header';
+@use './components/cartwidget';
+@use './components/footer';

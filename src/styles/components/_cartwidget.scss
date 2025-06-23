@@ -1,0 +1,39 @@
+@use '../variables' as v;
+@use '../tipografia';
+@use '../mixins' as m;
+@use '../buttons';
+
+.cart-widget {
+    cursor: pointer;
+    transition: transform 0.2s;
+
+    &:hover {
+        transform: scale(1.1);
+
+        i {
+            color: rgb(222, 68, 68) !important;
+        }
+
+        .cart-badge {
+            background-color: rgb(222, 68, 68) !important;
+        }
+    }
+
+    i {
+        color: v.$azul;
+    }
+}
+
+.cart-mobile {
+    display: none !important;
+    @include m.media-max (1199.98px) {
+        display: flex !important;
+    }
+}
+
+.cart-desktop {
+    display: flex !important;
+    @include m.media-max (1199.98px) {
+        display: none !important;
+    }
+}

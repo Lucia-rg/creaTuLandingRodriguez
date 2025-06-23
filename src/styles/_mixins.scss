@@ -1,0 +1,41 @@
+
+@mixin flex ($direction, $wrap, $justify-content, $align-items) {
+    display: flex;
+    flex-flow: $direction $wrap;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+@mixin container-center-flex ($direction, $wrap) {
+    display: flex;
+    flex-flow: $direction $wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin content-center {
+    justify-content: center;
+    align-content: center;
+}
+
+@mixin underline-wavy {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+// Responsive
+
+@mixin media-max ($breakpoint) {
+    @media (max-width: $breakpoint) {
+        @content
+    }
+}
+
+@mixin media-min ($breakpoint) {
+    @media (min-width: $breakpoint) {
+        @content
+    }
+}
+
+
+
