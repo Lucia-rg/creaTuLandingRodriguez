@@ -1,3 +1,4 @@
+import {NavLink} from "react-router-dom";
 import "../styles/components/_header.scss";
 import CartWidget from "./CartWidget";
 import onda_sonar_logo from "/img/logo/onda_sonar_logo.svg";
@@ -9,9 +10,9 @@ function NavBar () {
         <nav className="navbar navbar-expand-xl">
             <div className="container-fluid justify-content-between">
 
-                <a className="navbar-brand logo" href="#">
+                <NavLink to="*" className="navbar-brand logo">
                 <img src={onda_sonar_logo} alt="Logo" />
-                </a>
+                </NavLink>
 
                 <div className="d-flex align-items-center gap-3">
 
@@ -22,6 +23,7 @@ function NavBar () {
                             type="button" 
                             data-bs-toggle="collapse" 
                             data-bs-target="#navbarSupportedContent" 
+                            data-bs-dismiss="navbarCollapse" 
                             aria-controls="navbarSupportedContent" 
                             aria-expanded="false" 
                             aria-label="Toggle navigation"
@@ -35,29 +37,36 @@ function NavBar () {
             
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Inicio</a>
+                            <NavLink to="*" className="nav-link">Inicio</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Servicios</a>
+                            <NavLink to="*" className="nav-link" >Servicios</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Laboratorio</a>
+                            <NavLink to="*" className="nav-link" >Laboratorio</NavLink>
                         </li>   
                         <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Equipo</a>
+                            <NavLink to="*" className="nav-link dropdown-toggle" data-bs-toggle="dropdown"  role="button" aria-expanded="false">Equipo</NavLink>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item nav-link" href="#">Sobre nosotros</a></li>
-                                <li><a className="dropdown-item nav-link" href="#">Sistema de Gestión</a></li>
+                                <li><NavLink to="*" className="dropdown-item nav-link" >Sobre nosotros</NavLink></li>
+                                <li><NavLink to="*" className="dropdown-item nav-link" >Sistema de Gestión</NavLink></li>
+                            </ul>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <NavLink to="/" className="nav-link dropdown-toggle active" data-bs-toggle="dropdown" role="button" aria-expanded="false">Productos</NavLink>
+                            <ul className="dropdown-menu">
+                                <li><NavLink to="/productos/microfonos" className="dropdown-item nav-link" data-bs-dismiss="navbarCollapse"  >Micrófonos</NavLink></li>
+                                <li><NavLink to="/productos/accesorios" className="dropdown-item nav-link" >Accesorios</NavLink></li>
+                                <li><NavLink to="/productos/audifonos" className="dropdown-item nav-link" >Audífonos</NavLink></li>
+                                <li><NavLink to="/productos/estudio" className="dropdown-item nav-link" >Estudio y grabación</NavLink></li>
+                                <li><NavLink to="/" className="dropdown-item nav-link" >Ver todo</NavLink></li>
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <a class="nav-link active" href="#">Productos</a>
+                            <NavLink to="*" className="nav-link" >Blog</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#">Contacto</a>
+                            <NavLink to="*" className="nav-link" aria-current="page" >Contacto</NavLink>
                         </li>
                     </ul>
 

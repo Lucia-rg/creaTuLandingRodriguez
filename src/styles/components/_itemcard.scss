@@ -1,0 +1,19 @@
+@use '../variables' as v;
+@use '../tipografia';
+@use '../mixins' as m;
+@use '../buttons';
+
+.search-icon {
+    color: v.$azul;
+    cursor: pointer;
+    transition: transform 0.2s !important;
+
+    &:hover {
+        transform: scale(1.1) !important;
+    }
+
+}
+
+.img-list {
+    border-radius: 10% !important;
+}

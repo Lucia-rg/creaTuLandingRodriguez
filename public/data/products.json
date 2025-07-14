@@ -1,0 +1,443 @@
+[
+  {
+    "id": "MIC001",
+    "name": "RØDE NT1-A",
+    "description": "Micrófono de condensador cardioide de gran diafragma (1″), nivel de ruido muy bajo (5 dBA), SPL máximo de 137 dB. Ideal para voces e instrumentos. Incluye shockmount, pop filter y cable XLR.",
+    "price": 850000,
+    "stock": 10,
+    "category": "microfonos",
+    "image": "/img/productos/microfonos/rode_nt1a.jpg"
+  },
+  {
+    "id": "MIC002",
+    "name": "Shure SM7B",
+    "description": "Micrófono dinámico cardioide de estudio, respuesta en frecuencia plana y amplia. Excelente para podcasting, broadcasting y voces, con supresión de graves y realce de presencia.",
+    "price": 2500000,
+    "stock": 8,
+    "category": "microfonos",
+    "image": "/img/productos/microfonos/shure_sm7b.jpg"
+  },
+  {
+    "id": "MIC003",
+    "name": "Shure SM58",
+    "description": "Micrófono dinámico cardioide legendario para voces en vivo. Robusto, con respuesta de frecuencia de 50 Hz a 15 kHz y excelente rechazo de feedback.",
+    "price": 450000,
+    "stock": 20,
+    "category": "microfonos",
+    "image": "/img/productos/microfonos/shure_sm58.jpg"
+  },
+  {
+    "id": "MIC004",
+    "name": "Electro-Voice RE20",
+    "description": "Micrófono dinámico cardioide de diafragma grande con tecnología Variable-D. Estándar en broadcasting y música, excelente para voces y bajos.",
+    "price": 2200000,
+    "stock": 5,
+    "category": "microfonos",
+    "image": "/img/productos/microfonos/electro-voice-re20-dynamic.jpg"
+  },
+  {
+    "id": "MIC005",
+    "name": "Neumann U87",
+    "description": "Micrófono de condensador profesional, patrón cardioide/omni/figura-8, cápsula de 25 mm. Estándar de la industria en estudios desde 1967.",
+    "price": 9000000,
+    "stock": 3,
+    "category": "microfonos",
+    "image": "/img/productos/microfonos/neumann-u-87-ai.jpg"
+  },
+  {
+    "id": "MIC006",
+    "name": "RØDE PodMic",
+    "description": "Micrófono dinámico cardioide especialmente diseñado para podcasting y streaming. Construcción robusta y preamplificador de calidad interna.",
+    "price": 550000,
+    "stock": 15,
+    "category": "microfonos",
+    "image": "/img/productos/microfonos/podmic-rode.jpg"
+  },
+  {
+    "id": "MIC007",
+    "name": "Blue Yeti Nano",
+    "description": "Micrófono USB compacto con patrón cardioide, alta calidad sonora para streaming, podcast y videoconferencias. Alternativa económica destacada.",
+    "price": 600000,
+    "stock": 12,
+    "category": "microfonos",
+    "image": "/img/productos/microfonos/blue-yeti-nano-logitech.jpg"
+  },
+  {
+    "id": "MIC008",
+    "name": "AKG C414 XLII",
+    "description": "Micrófono de condensador multipatrón (cardioide, omni, figura-8...), muy versátil para voces, snare y overheads. Referido por MusicRadar como entre los mejores.",
+    "price": 8200000,
+    "stock": 4,
+    "category": "microfonos",
+    "image": "/img/productos/microfonos/AKG-C414-XLII.jpg"
+  },
+  {
+    "id": "MIC009",
+    "name": "Lewitt LCT 240 Pro",
+    "description": "Micrófono de condensador de diafragma grande, excelente relación calidad-precio. Comparado favorablemente con el NT1-A.",
+    "price": 1200000,
+    "stock": 9,
+    "category": "microfonos",
+    "image": "/img/productos/microfonos/lewitt_lct_240.jpg"
+  },
+  {
+    "id": "MIC010",
+    "name": "Electro-Voice RE320",
+    "description": "Versión del RE20 con switch voz/bombo, patrón cardioide. Ideal tanto para voces como para percusión.",
+    "price": 1800000,
+    "stock": 6,
+    "category": "microfonos",
+    "image": "/img/productos/microfonos/electro-voice_re320.jpg"
+  },
+  {
+    "id": "ACC011",
+    "name": "RØDE PSA1+ Brazo articulado para micrófono",
+    "description": "Brazo articulado de metal resistente para microfonos, ajuste fácil mediante resorte y sistema de cableado interno. Compatible con microfonos de hasta 1.2 kg.",
+    "price": 450000,
+    "stock": 12,
+    "category": "accesorios",
+    "image": "/img/productos/accesorios/rode-psa1-podmic-3-quarter-left-angled.jpg"
+  },
+  {
+    "id": "ACC012",
+    "name": "Pop Filter RØDE WS2",
+    "description": "Filtro antipop profesional con doble malla y cuello flexible de 40 cm. Reduce plosivas y protege el diafragma de humedad.",
+    "price": 90000,
+    "stock": 20,
+    "category": "accesorios",
+    "image": "/img/productos/accesorios/pop_filter_rode.jpg"
+  },
+  {
+    "id": "ACC013",
+    "name": "Shock Mount RØDE PSM1",
+    "description": "Montaje antivibraciones para microfonos tipo condenser como NT1‑A y NT2‑A. Cuelga el micrófono dentro de una suspensión elástica para aislar del ruido de manejo.",
+    "price": 120000,
+    "stock": 10,
+    "category": "accesorios",
+    "image": "/img/productos/accesorios/rode_shock_mount_psm1.jpg"
+  },
+  {
+    "id": "ACC014",
+    "name": "Cable XLR Proel 5m",
+    "description": "Cable balanceado XLR macho‑hembra de 5 metros, blindaje triple, conductores de cobre OFC para señal limpia y mínima interferencia.",
+    "price": 80000,
+    "stock": 30,
+    "category": "accesorios",
+    "image": "/img/productos/accesorios/cable_xlr_proel.png"
+  },
+  {
+    "id": "ACC015",
+    "name": "Soporte de mesa InnoGear",
+    "description": "Soporte de brazo articulado con pinza metálica, incluye shockmount y filtro pop. Ideal para streaming y podcast.",
+    "price": 250000,
+    "stock": 15,
+    "category": "accesorios",
+    "image": "/img/productos/accesorios/soporte_innogear.jpg"
+  },
+  {
+    "id": "ACC016",
+    "name": "Estuche rígido SKB 6EPA para microfonos",
+    "description": "Maletín de alto rendimiento con espuma moldeada para microfonos, resistente al agua y golpes, asa ergonómica y pestillos automáticos.",
+    "price": 350000,
+    "stock": 0,
+    "category": "accesorios",
+    "image": "/img/productos/accesorios/skb_6epa.png"
+  },
+  {
+    "id": "ACC017",
+    "name": "Adaptador XLR a TRS Hosa GXF-153",
+    "description": "Adaptador balanceado XLR hembra a TRS macho de 6.3 mm, fabricado con conectores dorados y cuerpo moldeado de PVC.",
+    "price": 40000,
+    "stock": 25,
+    "category": "accesorios",
+    "image": "/img/productos/accesorios/adaptador_hosa.jpg"
+  },
+  {
+    "id": "ACC018",
+    "name": "Espuma antiviento RØDE WS1",
+    "description": "Capa de espuma para microfonos de cañón NTG y VideoMic. Reduce viento y ruidos ambientales cuando se graba en exteriores.",
+    "price": 60000,
+    "stock": 18,
+    "category": "accesorios",
+    "image": "/img/productos/accesorios/antipop_ws1.jpg"
+  },
+  {
+    "id": "ACC020",
+    "name": "Filtro anti‑pop doble capa Maono PM150",
+    "description": "Filtro de malla doble con cuello flexible de 30 cm, reduce plosivas para grabaciones vocales y podcast.",
+    "price": 70000,
+    "stock": 22,
+    "category": "accesorios",
+    "image": "/img/productos/accesorios/antipop_maono.png"
+  },
+  {
+    "id": "EST031",
+    "name": "Focusrite Scarlett 2i2 3rd Gen",
+    "description": "Interfaz de audio USB con 2 entradas combo XLR/Jack, preamplificadores Scarlett con phantom power, resolución 24‑bit/192 kHz.",
+    "price": 900000,
+    "stock": 10,
+    "category": "estudio",
+    "image": "/img/productos/estudio/Scarlett_2i2.png"
+  },
+  {
+    "id": "EST032",
+    "name": "Universal Audio Apollo Twin X Duo",
+    "description": "Interfaz de audio Thunderbolt con DSP UAD, 2 preamps Unison, conversión A/D excelente y plugins UAD incluidos.",
+    "price": 5500000,
+    "stock": 4,
+    "category": "estudio",
+    "image": "/img/productos/estudio/Universal_Audio_Apollo_Twin_X.jpg"
+  },
+  {
+    "id": "EST033",
+    "name": "PreSonus Eris E5 XT (par)",
+    "description": "Monitores de estudio activos de 5.25″ con respuesta plana y tweeter de seda, ajustes acústicos traseros para adaptación de sala.",
+    "price": 1200000,
+    "stock": 6,
+    "category": "estudio",
+    "image": "/img/productos/estudio/Eris-E5-XT-1.jpg"
+  },
+  {
+    "id": "EST034",
+    "name": "KRK Rokit 7 G4 (par)",
+    "description": "Monitores de estudio de 7″ con ecualización gráfica, pantalla LCD y respuesta de bajos mejorada con DSP.",
+    "price": 2400000,
+    "stock": 5,
+    "category": "estudio",
+    "image": "/img/productos/estudio/KRK_Rokit.jpg"
+  },
+  {
+    "id": "EST035",
+    "name": "SSL 2+ Audio Interface",
+    "description": "Interfaz USB 2‑in/4‑out de Solid State Logic con preamps Legacy, entrada hi‑Z y modo 4K para coloración analógica.",
+    "price": 2100000,
+    "stock": 7,
+    "category": "estudio",
+    "image": "/img/productos/estudio/SOLID-STATE-LOGIC-SSL-2.png"
+  },
+  {
+    "id": "EST036",
+    "name": "DBX 286s Mic Preamp & Channel Strip",
+    "description": "Preamplificador de micrófono con compresor, de‑esser, enhancher y gate incorporados, formato rack 1U.",
+    "price": 950000,
+    "stock": 8,
+    "category": "estudio",
+    "image": "/img/productos/estudio/dbx-286-s.jpeg"
+  },
+  {
+    "id": "EST037",
+    "name": "Behringer X32 Rack Digital Mixer",
+    "description": "Mezclador digital rackeable de 32 canales con motor de mezcla, efectos integrados y control remoto via app.",
+    "price": 4800000,
+    "stock": 3,
+    "category": "estudio",
+    "image": "/img/productos/estudio/MEZCLADOR-BEHRINGER-X32-RACK.jpeg"
+  },
+  {
+    "id": "EST038",
+    "name": "Auralex Acoustics Studiofoam Panels",
+    "description": "Paneles de espuma acústica de 2″ para tratamiento de sala, reducen reflexiones y resonancias en frecuencias medias y altas.",
+    "price": 350000,
+    "stock": 25,
+    "category": "estudio",
+    "image": "/img/productos/estudio/Auralex_panels.jpg"
+  },
+  {
+    "id": "EST039",
+    "name": "IsoAcoustics ISO‑L8R155 Speaker Isolators",
+    "description": "Soportes para monitores que desacoplan acústicamente, mejoran claridad de bajos y precisión en mezcla.",
+    "price": 500000,
+    "stock": 12,
+    "category": "estudio",
+    "image": "/img/productos/estudio/isoacoustics_l8r155.jpg"
+  },
+  {
+    "id": "EST040",
+    "name": "Antelope Audio Zen Go Synergy Core",
+    "description": "Interfaz USB‑C portátil con DAC de alta calidad, 2 preamps, efectos DSP y reloj interno de baja latencia.",
+    "price": 1800000,
+    "stock": 9,
+    "category": "estudio",
+    "image": "/img/productos/estudio/antelope_zen_go_synergy.png"
+  },
+  {
+    "id": "INS041",
+    "name": "Akai MPK Mini MK3",
+    "description": "Controlador MIDI 25 teclas semipesadas, 8 pads RGB, 8 knobs asignables, arpegiador integrado y conectividad USB.",
+    "price": 650000,
+    "stock": 14,
+    "category": "instrumentos",
+    "image": ""
+  },
+  {
+    "id": "INS042",
+    "name": "Novation Launchkey 49 MK3",
+    "description": "Controlador MIDI de 49 teclas, pads, faders y knobs integrados, con integración nativa en Ableton Live.",
+    "price": 1450000,
+    "stock": 7,
+    "category": "instrumentos",
+    "image": ""
+  },
+  {
+    "id": "INS043",
+    "name": "Elektron Digitakt MkII",
+    "description": "Sampler y secuenciador digital compacto, 8 voces, efectos integrados y conectividad MIDI.",
+    "price": 3000000,
+    "stock": 5,
+    "category": "instrumentos",
+    "image": ""
+  },
+  {
+    "id": "INS044",
+    "name": "Korg Volca Beats",
+    "description": "Caja de ritmos analógica compacta con swing, secuenciador por pasos y controles dedicados.",
+    "price": 650000,
+    "stock": 11,
+    "category": "instrumentos",
+    "image": ""
+  },
+  {
+    "id": "INS045",
+    "name": "Arturia MiniLab MkII",
+    "description": "Controlador MIDI de 25 teclas con pads táctiles, knobs capacitivos y software incluído.",
+    "price": 550000,
+    "stock": 20,
+    "category": "instrumentos",
+    "image": ""
+  },
+  {
+    "id": "INS046",
+    "name": "Roland TR-6S Rhythm Performer",
+    "description": "Caja de ritmos portátil con sonidos clásicos de Roland, sampler y efectos integrados.",
+    "price": 1800000,
+    "stock": 6,
+    "category": "instrumentos",
+    "image": ""
+  },
+  {
+    "id": "INS047",
+    "name": "Line 6 POD Go",
+    "description": "Multi‑efectos para guitarra con modelado de amplificadores, batería de acompañamiento y grabación via USB.",
+    "price": 1200000,
+    "stock": 8,
+    "category": "instrumentos",
+    "image": ""
+  },
+  {
+    "id": "INS048",
+    "name": "Yamaha Reface CS",
+    "description": "Sintetizador portátil monofónico, modelado de SFF, reverberación digital y controlador tipo vintage.",
+    "price": 1450000,
+    "stock": 9,
+    "category": "instrumentos",
+    "image": ""
+  },
+  {
+    "id": "INS049",
+    "name": "Boss RC-3 Loop Station",
+    "description": "Pedal looper con 3 horas de grabación, USB, memoria para frases y metrónomo incorporado.",
+    "price": 800000,
+    "stock": 13,
+    "category": "instrumentos",
+    "image": ""
+  },
+  {
+    "id": "INS050",
+    "name": "Arturia KeyStep 37",
+    "description": "Controlador MIDI/teclado de 37 teclas con secuenciador, arpegiador, entrada/ salida CV y conectividad USB/MIDI.",
+    "price": 1100000,
+    "stock": 10,
+    "category": "instrumentos",
+    "image": ""
+  },
+  {
+    "id": "AUD061",
+    "name": "Audio-Technica ATH-M50x",
+    "description": "Audífonos cerrados de monitorización profesional, drivers de 45 mm, alta fidelidad y aislamiento acústico.",
+    "price": 620000,
+    "stock": 16,
+    "category": "audifonos",
+    "image": "/img/productos/audifonos/"
+  },
+  {
+    "id": "AUD062",
+    "name": "Beyerdynamic DT 770 Pro 80 Ω",
+    "description": "Audífonos cerrados de estudio con alta resolución y confort para mezclas, aislamiento de ruido moderado.",
+    "price": 700000,
+    "stock": 12,
+    "category": "audifonos",
+    "image": "/img/productos/audifonos/"
+  },
+  {
+    "id": "AUD063",
+    "name": "Sony MDR-7506",
+    "description": "Audífonos cerrados de referencia, muy usados en radio y estudio. Clara reproducción y plegables para portabilidad.",
+    "price": 550000,
+    "stock": 18,
+    "category": "audifonos",
+    "image": "/img/productos/audifonos/"
+  },
+  {
+    "id": "AUD064",
+    "name": "Sennheiser HD 650",
+    "description": "Audífonos abiertos de gama alta, respuesta neutra y confortable para sesiones prolongadas de mezcla y mastering.",
+    "price": 1400000,
+    "stock": 7,
+    "category": "audifonos",
+    "image": "/img/productos/audifonos/"
+  },
+  {
+    "id": "AUD065",
+    "name": "Bose QC45",
+    "description": "Audífonos inalámbricos con cancelación activa de ruido, cómodos y buena autonomía para trabajo en exteriores.",
+    "price": 1800000,
+    "stock": 9,
+    "category": "audifonos",
+    "image": "/img/productos/audifonos/"
+  },
+  {
+    "id": "AUD066",
+    "name": "Shure SE215",
+    "description": "In‑ear con aislamiento de sonido, driver dinámico y cable desmontable. Buena fidelidad para estudio y directo.",
+    "price": 420000,
+    "stock": 20,
+    "category": "audifonos",
+    "image": "/img/productos/audifonos/"
+  },
+  {
+    "id": "AUD067",
+    "name": "AKG K702",
+    "description": "Audífonos abiertos de referencia con drivers de 62 mm y diseño de orejera plana que favorece espacialidad en mixes.",
+    "price": 1100000,
+    "stock": 11,
+    "category": "audifonos",
+    "image": "/img/productos/audifonos/"
+  },
+  {
+    "id": "AUD068",
+    "name": "Sennheiser HD 25",
+    "description": "Audífonos cerrados ligeros y resistentes, estándar para DJs y broadcast, excelente aislamiento y portabilidad.",
+    "price": 800000,
+    "stock": 14,
+    "category": "audifonos",
+    "image": "/img/productos/audifonos/"
+  },
+  {
+    "id": "AUD069",
+    "name": "Apple AirPods Pro (2ª gen)",
+    "description": "In‑ear inalámbrico con cancelación activa de ruido, modo transparencia y autocalibración adaptativa.",
+    "price": 1600000,
+    "stock": 10,
+    "category": "audifonos",
+    "image": "/img/productos/audifonos/airpods_2gen.png"
+  },
+  {
+    "id": "AUD070",
+    "name": "Beyerdynamic T5p 2nd Gen",
+    "description": "Audífonos cerrados de alta fidelidad con drivers Tesla, excelente aislamiento y comodidad premium.",
+    "price": 2200000,
+    "stock": 6,
+    "category": "audifonos",
+    "image": "/img/productos/audifonos/beyerdynamic_t5p.jpg"
+  }
+]

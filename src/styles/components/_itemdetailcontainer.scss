@@ -1,0 +1,59 @@
+@use '../variables' as v;
+@use '../tipografia';
+@use '../mixins' as m;
+@use '../buttons';
+
+.img-detail {
+    @include m.media-min (575px) {
+        height: 400px;
+        object-fit: contain;
+    }
+}
+
+.header-detail {
+    border-bottom: solid 3px v.$azul;
+}
+
+.description-detail {
+    text-align: justify;
+}
+
+.btn-counter {
+    color: v.$azul;
+    cursor: pointer;
+    border: solid 2px v.$azul;
+    
+}
+
+.counter-container {
+    width: fit-content;
+}
+
+.btn-add-carrito {
+    justify-content: start;
+    @include m.media-max (780px) {
+        justify-content: center;
+    }
+}
+
+.btn-compra {
+    background-color: v.$morado !important;
+    color: white !important;
+    border-color: v.$morado !important;
+    &:hover {
+        background-color: v.$moradoOp !important;
+        color: v.$morado !important;
+    }
+    
+}
+
+.btn-carrito {
+    background-color: v.$azul!important;
+    color: white !important;
+    border-color: v.$azul !important;
+    &:hover {
+        background-color: v.$azulOp !important;
+        color: v.$azul !important;
+    }
+    
+}
