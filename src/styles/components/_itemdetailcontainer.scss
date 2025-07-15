@@ -19,9 +19,13 @@
 }
 
 .btn-counter {
-    color: v.$azul;
+    color: v.$azul !important;
+    border: v.$azul solid 2px !important;
     cursor: pointer;
-    border: solid 2px v.$azul;
+
+    &:hover {
+        background-color: v.$azulOp !important;
+    }
     
 }
 

@@ -1,11 +1,13 @@
-import { useState } from "react";
 import ItemCount from "./ItemCount";
 import { formatPriceCOP } from "../utilities/formaterPrice";
+import { useCart } from "./CartContext";
+import "../styles/components/_itemdetailcontainer.scss";
 
 
 function ItemDetail ({product =[] }) {
     
-    const [quantity, setQuantity] = useState(1);
+    // const [quantity, setQuantity] = useState(1);
+    const {addToCart} = useCart();
 
     return (
     <div className="container my-5 ">
@@ -19,8 +21,6 @@ function ItemDetail ({product =[] }) {
                     />
                 </div>
             </div>
-
-        
 
             <div className="col-md-6 d-flex flex-column item-info">
                 <div className="header-detail">
@@ -39,23 +39,10 @@ function ItemDetail ({product =[] }) {
                 </div>
 
                 {product.stock > 0 ? ( 
-                    <div className="row justify-content-center align-content-center">
-                    {/* <div className="d-flex gap-3 btn-add-carrito align-items-center"> */}
-                    <div className="col mb-4 justify-content-center align-content-center">
-                        <ItemCount stock={product.stock} init={1} add={setQuantity} />
-                    </div>
-
-                    <div className="col-lg-6 d-flex flex-column justify-content-between gap-2">
-                        <button className="btn btn-outline-primary btn-carrito">
-                            <i className="bi bi-cart me-2 "></i>
-                            Agregar al carrito
-                        </button>
-                        <button className="btn btn-outline-primary btn-compra">
-                            Comprar ahora
-                        </button>
-                    </div>
-                
-                    </div>) : (
+                            <ItemCount 
+                                stock={product.stock} 
+                                onAddToCart = {(quantity) => addToCart(product, quantity)} 
+                            />) : (
                     <button className="btn btn-outline-secondary btn-lg mt-2" disabled>
                     Producto agotado
                     </button>

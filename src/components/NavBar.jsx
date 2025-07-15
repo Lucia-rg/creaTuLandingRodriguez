@@ -76,7 +76,7 @@ function NavBar () {
                         <div className="collapse navbar-collapse justify-content-end busqueda" id="navbarSupportedContent">
                             <form className="d-flex justify-content-center" role="search">
                             <input className="form-control me-2 focus-ring" type="search" placeholder="" aria-label="Search" />
-                            <button className="btn btn-outline-success" type="submit">Buscar</button>
+                            <button className="btn btn-outline-success btn-search" type="submit">Buscar</button>
                             </form>
                         </div>
 

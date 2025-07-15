@@ -67,3 +67,14 @@
     }
 
 }
+
+.btn-search {
+    color: v.$azul !important;
+    border: v.$azul solid 2px !important;
+    cursor: pointer;
+
+    &:hover {
+        background-color: v.$azulOp !important;
+    }
+    
+}

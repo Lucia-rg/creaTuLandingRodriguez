@@ -261,103 +261,13 @@
     "image": "/img/productos/estudio/antelope_zen_go_synergy.png"
   },
   {
-    "id": "INS041",
-    "name": "Akai MPK Mini MK3",
-    "description": "Controlador MIDI 25 teclas semipesadas, 8 pads RGB, 8 knobs asignables, arpegiador integrado y conectividad USB.",
-    "price": 650000,
-    "stock": 14,
-    "category": "instrumentos",
-    "image": ""
-  },
-  {
-    "id": "INS042",
-    "name": "Novation Launchkey 49 MK3",
-    "description": "Controlador MIDI de 49 teclas, pads, faders y knobs integrados, con integración nativa en Ableton Live.",
-    "price": 1450000,
-    "stock": 7,
-    "category": "instrumentos",
-    "image": ""
-  },
-  {
-    "id": "INS043",
-    "name": "Elektron Digitakt MkII",
-    "description": "Sampler y secuenciador digital compacto, 8 voces, efectos integrados y conectividad MIDI.",
-    "price": 3000000,
-    "stock": 5,
-    "category": "instrumentos",
-    "image": ""
-  },
-  {
-    "id": "INS044",
-    "name": "Korg Volca Beats",
-    "description": "Caja de ritmos analógica compacta con swing, secuenciador por pasos y controles dedicados.",
-    "price": 650000,
-    "stock": 11,
-    "category": "instrumentos",
-    "image": ""
-  },
-  {
-    "id": "INS045",
-    "name": "Arturia MiniLab MkII",
-    "description": "Controlador MIDI de 25 teclas con pads táctiles, knobs capacitivos y software incluído.",
-    "price": 550000,
-    "stock": 20,
-    "category": "instrumentos",
-    "image": ""
-  },
-  {
-    "id": "INS046",
-    "name": "Roland TR-6S Rhythm Performer",
-    "description": "Caja de ritmos portátil con sonidos clásicos de Roland, sampler y efectos integrados.",
-    "price": 1800000,
-    "stock": 6,
-    "category": "instrumentos",
-    "image": ""
-  },
-  {
-    "id": "INS047",
-    "name": "Line 6 POD Go",
-    "description": "Multi‑efectos para guitarra con modelado de amplificadores, batería de acompañamiento y grabación via USB.",
-    "price": 1200000,
-    "stock": 8,
-    "category": "instrumentos",
-    "image": ""
-  },
-  {
-    "id": "INS048",
-    "name": "Yamaha Reface CS",
-    "description": "Sintetizador portátil monofónico, modelado de SFF, reverberación digital y controlador tipo vintage.",
-    "price": 1450000,
-    "stock": 9,
-    "category": "instrumentos",
-    "image": ""
-  },
-  {
-    "id": "INS049",
-    "name": "Boss RC-3 Loop Station",
-    "description": "Pedal looper con 3 horas de grabación, USB, memoria para frases y metrónomo incorporado.",
-    "price": 800000,
-    "stock": 13,
-    "category": "instrumentos",
-    "image": ""
-  },
-  {
-    "id": "INS050",
-    "name": "Arturia KeyStep 37",
-    "description": "Controlador MIDI/teclado de 37 teclas con secuenciador, arpegiador, entrada/ salida CV y conectividad USB/MIDI.",
-    "price": 1100000,
-    "stock": 10,
-    "category": "instrumentos",
-    "image": ""
-  },
-  {
     "id": "AUD061",
     "name": "Audio-Technica ATH-M50x",
     "description": "Audífonos cerrados de monitorización profesional, drivers de 45 mm, alta fidelidad y aislamiento acústico.",
     "price": 620000,
     "stock": 16,
     "category": "audifonos",
-    "image": "/img/productos/audifonos/"
+    "image": "/img/productos/audifonos/ath-m50xlab_1.jpg"
   },
   {
     "id": "AUD062",
@@ -366,16 +276,7 @@
     "price": 700000,
     "stock": 12,
     "category": "audifonos",
-    "image": "/img/productos/audifonos/"
-  },
-  {
-    "id": "AUD063",
-    "name": "Sony MDR-7506",
-    "description": "Audífonos cerrados de referencia, muy usados en radio y estudio. Clara reproducción y plegables para portabilidad.",
-    "price": 550000,
-    "stock": 18,
-    "category": "audifonos",
-    "image": "/img/productos/audifonos/"
+    "image": "/img/productos/audifonos/dt770.jpg"
   },
   {
     "id": "AUD064",
@@ -384,7 +285,7 @@
     "price": 1400000,
     "stock": 7,
     "category": "audifonos",
-    "image": "/img/productos/audifonos/"
+    "image": "/img/productos/audifonos/shhd650.jpg"
   },
   {
     "id": "AUD065",
@@ -393,7 +294,7 @@
     "price": 1800000,
     "stock": 9,
     "category": "audifonos",
-    "image": "/img/productos/audifonos/"
+    "image": "/img/productos/audifonos/bose-qc45.jpeg"
   },
   {
     "id": "AUD066",
@@ -402,7 +303,7 @@
     "price": 420000,
     "stock": 20,
     "category": "audifonos",
-    "image": "/img/productos/audifonos/"
+    "image": "/img/productos/audifonos/shure-se215.jpg"
   },
   {
     "id": "AUD067",
@@ -411,16 +312,7 @@
     "price": 1100000,
     "stock": 11,
     "category": "audifonos",
-    "image": "/img/productos/audifonos/"
-  },
-  {
-    "id": "AUD068",
-    "name": "Sennheiser HD 25",
-    "description": "Audífonos cerrados ligeros y resistentes, estándar para DJs y broadcast, excelente aislamiento y portabilidad.",
-    "price": 800000,
-    "stock": 14,
-    "category": "audifonos",
-    "image": "/img/productos/audifonos/"
+    "image": "/img/productos/audifonos/akg-k702.jpg"
   },
   {
     "id": "AUD069",

@@ -3,11 +3,11 @@
 
 // Botón 
 .btn {
-    color: v.$azul  !important;
-    border: v.$azul solid 2px !important;
+    color: v.$azul ;
+    border: v.$azul solid 2px;
 
     &:hover {
-        background-color: v.$azulOp !important;
+        background-color: v.$azulOp;
     }
 }
 

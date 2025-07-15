@@ -9,21 +9,26 @@ import NavBar from "./components/NavBar";
 // import Main from "./components/Main";
 import ItemListContainer from "./components/ItemListContainer";
 import ItemDetailContainer from "./components/ItemDetailContainer";
+import NoPage from "./components/NoPage";
+// Hooks y contextos
+import { CartProvider } from "./components/CartContext";
 // import Footer from "./components/Footer";
 
 function App() {
 
   return (
     <>
-      <NavBar />
-      <Routes>
-        <Route path="/" element={<ItemListContainer greeting="¡Bienvenido a Onda Sonar! Descubre productos únicos y servicios inolvidables."/>} />
-        <Route path="/productos" element={<ItemListContainer />} />
-        <Route path="/productos/:category" element={<ItemListContainer />} />
-        <Route path="/productos/:category/:id" element={<ItemDetailContainer />} />
-      </Routes>
-      {/* <Main /> */}
-      {/* <Footer /> */}
+      <CartProvider>
+        <NavBar />
+          <Routes>
+            <Route path="/" element={<ItemListContainer greeting="¡Bienvenido a Onda Sonar! Descubre productos únicos y servicios inolvidables."/>} />
+            <Route path="/productos" element={<ItemListContainer />} />
+            <Route path="/productos/:category" element={<ItemListContainer />} />
+            <Route path="/productos/:category/:id" element={<ItemDetailContainer />} />
+            <Route path="*" element={<NoPage />} />
+          </Routes>
+          {/* <Footer /> */}
+      </CartProvider>
     </>
   )
 }

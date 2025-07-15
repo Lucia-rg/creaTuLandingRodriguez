@@ -1,8 +1,18 @@
 import "../styles/components/_itemcard.scss";
 import { formatPriceCOP } from "../utilities/formaterPrice";
 import {NavLink} from "react-router-dom";
+import { useCart } from "./CartContext";
 
 function Item ( {product}) {
+
+  const {addToCart} = useCart();
+
+  const handleAddtoCart = () => {
+    if (product.stock > 0) {
+        addToCart(product, 1);
+    }    
+  };
+
 
     return (
 
@@ -17,7 +27,7 @@ function Item ( {product}) {
             <p>{formatPriceCOP(product.price)} COP</p>
 
             <div className="d-flex align-items-center gap-3 justify-content-center mt-1">
-              <button className="btn btn-outline-primary">Agregar al carrito</button>
+              <button className="btn btn-outline-primary btn-add" onClick={handleAddtoCart}>Agregar al carrito</button>
               <NavLink to={`/productos/${product.category}/${product.id}`}><i className="bi bi-search fw-bold fs-4 search-icon"></i></NavLink>
               
             </div>

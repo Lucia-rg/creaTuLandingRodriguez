@@ -3,22 +3,17 @@
 @use '../mixins' as m;
 @use '../buttons';
 
-.search-icon {
-    color: v.$azul;
-    cursor: pointer;
-    transition: transform 0.2s !important;
+.error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    text-align: center;
+    padding: 2rem;
+  }
 
-    &:hover {
-        transform: scale(1.1) !important;
-    }
-
-}
-
-.img-list {
-    border-radius: 10% !important;
-}
-
-.btn-add {
+  .btn-nav {
     color: v.$azul !important;
     border: v.$azul solid 2px !important;
     cursor: pointer;

@@ -2,9 +2,12 @@
 import Item from "./Item";
 // Style
 import "../styles/components/_itemcard.scss";
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 function ItemList ({category, products = [], loading = 'true'}) {
 
+  const navigate = useNavigate();
   const categories =
     {
       microfonos: 'Micrófonos',
@@ -13,8 +16,17 @@ function ItemList ({category, products = [], loading = 'true'}) {
       estudio: 'Estudio y Grabación'
     };
 
-
+  const validCategories = ['microfonos', 'audifonos', 'accesorios', 'estudio'];
   const filterProducts = category ? products.filter(product => product.category === category.toLowerCase()) : products;
+
+  useEffect (() => {
+
+    if(category && !validCategories.includes(category)) {
+      navigate('*')
+      return
+    }
+
+  }, [category, navigate])
 
   if (loading) {
 

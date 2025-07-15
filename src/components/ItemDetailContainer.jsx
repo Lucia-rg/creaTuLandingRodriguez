@@ -1,15 +1,16 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import "../styles/components/_itemcard.scss";
-import "../styles/components/_itemdetailcontainer.scss";
 import ItemDetail from "./ItemDetail";
 
 
 function ItemDetailContainer () {
 
-    const {id} = useParams();
+    const {category, id} = useParams();
+    const navigate = useNavigate();
     const [product, setProduct] = useState([]);
     const [loading, setLoading] = useState(true);
+    const validCategories = ['microfonos', 'audifonos', 'accesorios', 'estudio'];
 
     useEffect(() => {
     
@@ -20,7 +21,10 @@ function ItemDetailContainer () {
             const response = await fetch("/data/products.json");
             const data = await response.json();
             const findProductById = data.find(product => product.id === id);
-            setProduct(findProductById);
+            if (!findProductById || (category && !validCategories.includes(category))) { 
+              navigate('*') 
+              return}  
+            setProduct(findProductById)
           } catch (err) {
               console.error("Fetch error:", err);
           }
