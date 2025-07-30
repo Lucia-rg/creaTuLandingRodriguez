@@ -1,0 +1,43 @@
+@use '../variables' as v;
+@use '../tipografia';
+@use '../mixins' as m;
+@use '../buttons';
+
+.img-cart {
+    height: 200px;
+    border-radius: 10% !important;
+    object-fit: contain;
+}
+
+.btn-delete-cart {
+    border: none !important;
+    transition: transform 0.2s;
+
+    &:hover {
+        transform: scale(1.3);
+        background-color: transparent !important;
+
+        i {
+            color: red;  
+        }
+    }
+}
+
+
+.cart-summary {
+    margin-top: 20px;
+    padding: 15px;
+    border-top: 2px solid v.$morado;
+    text-align: right;
+  }
+
+.btn-checkout {
+    background-color: v.$morado !important;
+    color: white !important;
+    border-color: v.$morado !important;
+    &:hover {
+        background-color: v.$moradoOp !important;
+        color: v.$morado !important;
+    }
+    
+}

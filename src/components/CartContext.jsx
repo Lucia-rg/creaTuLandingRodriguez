@@ -5,10 +5,11 @@ const CartContext = createContext();
 export function CartProvider ({children}) {
 
     const [cart, setCart] = useState([]);
+    const subTotal = cart.reduce((total, product) => total + (product.price*product.quantity), 0);
 
     function addToCart (product, quantity) {
 
-        setCart(prev => {
+        setCart((prev) => {
 
             const existItem = prev.find(item => item.id === product.id);
             if (existItem) {
@@ -19,8 +20,20 @@ export function CartProvider ({children}) {
 
     };
 
+    function removeFromCart (productId) {
+        setCart((prev) => {
+            return prev.filter(item => item.id !== productId);
+        });
+    };
+
+    function updateQuantity (productId, newQuantity) {
+        setCart((prev) => {
+            return prev.map(item => item.id === productId ? {...item, quantity: newQuantity } : item);
+        });
+    };
+
     return (
-        <CartContext.Provider value={ {cart, addToCart} }>
+        <CartContext.Provider value={ {cart, addToCart, removeFromCart, updateQuantity, subTotal} }>
             {children}
         </CartContext.Provider>
     );

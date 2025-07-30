@@ -16,7 +16,7 @@ function NavBar () {
 
                 <div className="d-flex align-items-center gap-3">
 
-                     <CartWidget className="cart-mobile"/>
+                    <CartWidget className="cart-mobile"/>
 
                     <button 
                             className="navbar-toggler" 
