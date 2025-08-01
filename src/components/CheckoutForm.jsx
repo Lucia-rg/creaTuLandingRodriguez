@@ -18,6 +18,18 @@ function CheckoutForm () {
         ciudad: "",
         celular: "" ,  
     })
+    const validSubmit = () => {
+        return (
+            userData.email.trim() !== "" &&
+            userData.nombre.trim() !== "" &&
+            userData.apellidos.trim() !== "" &&
+            userData.cedula.trim() !== "" &&
+            userData.direccion.trim() !== "" &&
+            userData.ciudad.trim() !== "" &&
+            userData.celular.trim() !== "" &&
+            subTotal !== 0
+        );
+    }
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -146,7 +158,7 @@ function CheckoutForm () {
                         <h3 className="total">Total : {formatPriceCOP((subTotal+envio).toFixed(2))} COP </h3>
                     </div>
 
-                <button className="btn btn-outline-primary btn-pago mt-3" onClick={handleSubmit}>Pagar ahora</button>
+                <button  disabled={!validSubmit()} className="btn btn-outline-primary btn-pago mt-3" onClick={handleSubmit}>Pagar ahora</button>
                 
                 </div>
             </div>
