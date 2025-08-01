@@ -6,6 +6,7 @@ import "../styles/components/_itemdetailcontainer.scss";
 function ItemCount ({stock, init = 1, onAddToCart}) {
 
     const [quantity, setQuantity] = useState(init);
+    
 
     const increment = () => {
         if (quantity < stock) setQuantity(quantity+1);

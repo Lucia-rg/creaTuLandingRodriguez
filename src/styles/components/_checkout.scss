@@ -1,0 +1,92 @@
+@use '../variables' as v;
+@use '../tipografia';
+@use '../mixins' as m;
+@use '../buttons';
+
+// .contenedor-seccion {
+//     @include m.flex (column, wrap, center, center);
+//     align-items: center;
+//     width: 100%;
+//     margin: 0 !important;
+//     padding: 0 !important;
+//     box-sizing: border-box;
+// }
+
+// .contenedor-forms {
+//     h2 {
+//         margin-top: 5px;
+//     }
+// }
+
+.input-grupo {
+    width: 100%;
+    margin: 0 !important;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-item {
+    margin: 10px;
+    i {
+        margin-right: 8px;
+    }
+}
+
+.input-form {
+
+    font-family: 'fuente-cuerpo-light';
+    color: black;
+    border: v.$azul solid 2px;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: v.$blanco;
+
+    &:focus {
+        outline: v.$morado solid 2px;
+        outline-offset: -2px;
+        }
+
+}
+
+.img-checkout {
+    width: 100px;
+}
+
+.title-item-checkout {
+    font-size: 16px !important;
+
+}
+
+.total-resumen {
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    padding-top: 20px;
+      
+}
+
+.total {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: v.$azul !important;
+
+}
+
+.btn-pago {
+    background-color: v.$fondoContenido !important;
+    color: v.$azul !important;
+    border-color: v.$gris !important;
+    width: 100%;
+    font-weight: bold;
+    &:hover {
+        background-color: v.$azulOp !important;
+        color: v.$azul !important;
+    }
+    
+}
+
