@@ -8,7 +8,7 @@ import "../styles/components/_cart.scss";
 
 function Cart () {
 
-    const {cart, removeFromCart, updateQuantity, subTotal} = useCart();
+    const {cart, setCart, removeFromCart, updateQuantity, subTotal} = useCart();
     const navigate = useNavigate();
 
     // const handleSendForm = () => {
@@ -32,7 +32,11 @@ function Cart () {
                     <div className="col-lg-8">
                         {cart.map(product => (
                             <ItemCart key={product.id} product={product} onRemoveFromCart = {removeFromCart} onUpdateQuantity = {updateQuantity}/> ))}
+
+                        <button className="btn btn-outline-primary btn-nav mt-3" onClick={() => setCart([])}>Limpiar carrito</button>
                     </div>
+
+                    
 
                     <div className="cart-summary">
                     <h3>Subtotal: {formatPriceCOP(subTotal.toFixed(2))} COP </h3>

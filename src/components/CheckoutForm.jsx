@@ -1,14 +1,20 @@
 import { useState } from "react";
 import { useCart } from "./CartContext";
+import { useNavigate} from 'react-router-dom';
 import ItemCheckout from "./ItemCheckout";
 import "../styles/components/_checkout.scss";
 import { formatPriceCOP } from "../utilities/formaterPrice";
+import { addDoc, collection, getFirestore } from "firebase/firestore";
+import { app } from "../firebaseConfig";
 
 
 function CheckoutForm () {
 
-    const {cart, subTotal} = useCart();
+    const {cart, setCart, subTotal} = useCart();
+    const navigate = useNavigate();
     const envio = 8000;
+    const [showModal, setShowModal] = useState(false);
+    const [orderId, setOrderId] = useState(null);
     const [userData, setUserData] = useState({
         email: "",
         nombre: "",
@@ -18,6 +24,7 @@ function CheckoutForm () {
         ciudad: "",
         celular: "" ,  
     })
+    
     const validSubmit = () => {
         return (
             userData.email.trim() !== "" &&
@@ -39,7 +46,34 @@ function CheckoutForm () {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log("Datos enviados:", {userData, cart, total: subTotal + envio });
+        const db = getFirestore(app)
+        const ventasCollection = collection(db, "ventas")
+        const elPedido = addDoc(ventasCollection, {userData, cart, total: subTotal + envio })
+
+        elPedido
+            .then((respuesta) => {
+                setOrderId(respuesta.id);
+                setShowModal(true);
+                console.log(respuesta.id)
+            })
+            .catch((error) => {
+                console.log(error)
+            })
+    
     };
+
+    const handleCloseModal = () => {
+        setShowModal(false);
+        setCart([]);
+        setUserData({
+            email: "",
+            nombre: "",
+            apellidos: "",
+            cedula: "",
+            direccion: "",
+        });
+        navigate('/');
+    }
 
     return (
         <div className="container my-4">
@@ -155,12 +189,23 @@ function CheckoutForm () {
                     <div className="total-resumen">
                         <h3>Subtotal: {formatPriceCOP(subTotal.toFixed(2))} COP </h3>
                         <p>Envío : {formatPriceCOP(envio.toFixed(2))} COP </p>
-                        <h3 className="total">Total : {formatPriceCOP((subTotal+envio).toFixed(2))} COP </h3>
+                        <h3 className="total">Total : {subTotal > 0 ? formatPriceCOP((subTotal+envio).toFixed(2)) : formatPriceCOP(0)} COP </h3>
                     </div>
 
                 <button  disabled={!validSubmit()} className="btn btn-outline-primary btn-pago mt-3" onClick={handleSubmit}>Pagar ahora</button>
                 
                 </div>
+
+                {showModal && (
+                    <div className="modal-overlay">
+                        <div className="modal-content">
+                            <h2>¡Gracias por tu compra!</h2>
+                            <p>Tu número de orden es: <strong>{orderId}</strong></p>
+
+                            <button className="btn btn-outline-primary btn-ppl mt-3" onClick={handleCloseModal}>Volver a la página principal</button>
+                        </div>
+                    </div>
+                )}
             </div>
 
         </div>

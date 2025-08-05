@@ -90,3 +90,35 @@ label {
     
 }
 
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.btn-ppl {
+    background-color: v.$morado !important;
+    color: white !important;
+    border-color: v.$morado !important;
+    &:hover {
+        background-color: v.$moradoOp !important;
+        color: v.$morado !important;
+    }
+    
+}
+

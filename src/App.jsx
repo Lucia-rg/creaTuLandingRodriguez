@@ -6,17 +6,15 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import {Routes, Route} from "react-router-dom";
 // Components
 import NavBar from "./components/NavBar";
-// import Main from "./components/Main";
 import ItemListContainer from "./components/ItemListContainer";
 import ItemDetailContainer from "./components/ItemDetailContainer";
 import Cart from "./components/Cart";
 import CheckoutForm from "./components/CheckoutForm";
 import NoPage from "./components/NoPage";
-import { getProducts } from "./firebase";
+// import { getProducts } from "./firebaseConfig";
 // Hooks y contextos
 import { CartProvider } from "./components/CartContext";
 import { useEffect } from "react";
-// import Footer from "./components/Footer";
 
 function App() {
 
