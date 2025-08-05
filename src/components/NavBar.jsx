@@ -1,9 +1,11 @@
-import {NavLink} from "react-router-dom";
+import {useNavigate, NavLink} from "react-router-dom";
 import "../styles/components/_header.scss";
 import CartWidget from "./CartWidget";
 import onda_sonar_logo from "/img/logo/onda_sonar_logo.svg";
 
 function NavBar () {
+
+    const navigate = useNavigate();
 
     return (
 
@@ -76,7 +78,7 @@ function NavBar () {
                         <div className="collapse navbar-collapse justify-content-end busqueda" id="navbarSupportedContent">
                             <form className="d-flex justify-content-center" role="search">
                             <input className="form-control me-2 focus-ring" type="search" placeholder="" aria-label="Search" />
-                            <button className="btn btn-outline-success btn-search" type="submit">Buscar</button>
+                            <button className="btn btn-outline-success btn-search" type="submit" onClick={navigate('/')}>Buscar</button>
                             </form>
                         </div>
 
