@@ -3,21 +3,6 @@
 @use '../mixins' as m;
 @use '../buttons';
 
-// .contenedor-seccion {
-//     @include m.flex (column, wrap, center, center);
-//     align-items: center;
-//     width: 100%;
-//     margin: 0 !important;
-//     padding: 0 !important;
-//     box-sizing: border-box;
-// }
-
-// .contenedor-forms {
-//     h2 {
-//         margin-top: 5px;
-//     }
-// }
-
 .input-grupo {
     width: 100%;
     margin: 0 !important;

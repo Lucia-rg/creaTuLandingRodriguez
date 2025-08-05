@@ -6,7 +6,6 @@ import "../styles/components/_itemdetailcontainer.scss";
 
 function ItemDetail ({product =[] }) {
     
-    // const [quantity, setQuantity] = useState(1);
     const {addToCart} = useCart();
 
     return (

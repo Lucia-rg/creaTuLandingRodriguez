@@ -11,8 +11,6 @@ function Cart () {
     const {cart, setCart, removeFromCart, updateQuantity, subTotal} = useCart();
     const navigate = useNavigate();
 
-    // const handleSendForm = () => {
-
     return (
         <div className="container py-3">
             <h1 className="mb-4">Carrito de compras</h1>
@@ -48,11 +46,7 @@ function Cart () {
 
                     </div>
                 </>
-            
-            )
-             }
-
-            {/* <CheckoutForm onSendForm = {handleSendForm} /> */}
+            )}
 
         </div>
     )

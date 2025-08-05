@@ -30,3 +30,14 @@ Tienda online especializada en equipos de audio profesional. Desarrollada con Re
 1. Clonar repositorio:
 ```bash
 git clone https://github.com/Lucia-rg/creaTuLandingRodriguez.git
+cd creaTuLandingRodriguez
+npm install
+```
+
+## 🤝 Cómo contribuir
+1. Haz fork del proyecto
+2. Crea tu rama (git checkout -b feature/nueva-funcion)
+3. Haz commit de tus cambios (git commit -m 'Añade nueva funcionalidad')
+4. Haz push a la rama (git push origin feature/nueva-funcion)
+5. Abre un Pull Request
+

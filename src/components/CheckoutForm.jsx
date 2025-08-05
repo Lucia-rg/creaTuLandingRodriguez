@@ -208,8 +208,7 @@ function CheckoutForm () {
                 )}
             </div>
 
-        </div>
-        
+        </div>    
     )
 
 }

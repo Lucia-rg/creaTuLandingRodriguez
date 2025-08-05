@@ -4,7 +4,7 @@ import "../styles/components/_itemcard.scss";
 import ItemDetail from "./ItemDetail";
 
 
-function ItemDetailContainer () {
+function ItemDetailContainer ({products =[]}) {
 
     const {category, id} = useParams();
     const navigate = useNavigate();
@@ -18,8 +18,7 @@ function ItemDetailContainer () {
           try {
             setLoading(true);
             await new Promise(resolve => setTimeout(resolve, 1000));
-            const response = await fetch("/data/products.json");
-            const data = await response.json();
+            const data = products;
             const findProductById = data.find(product => product.id === id);
             if (!findProductById || (category && !validCategories.includes(category))) { 
               navigate('*') 

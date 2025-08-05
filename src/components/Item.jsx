@@ -13,7 +13,6 @@ function Item ( {product}) {
     }    
   };
 
-
     return (
 
       <div className="card shadow-sm m-2">
