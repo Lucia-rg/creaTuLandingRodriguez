@@ -1,4 +1,4 @@
-# 🎵 Ondasonar - Ecommerce de Audio Profesional
+# 🎵 Onda Sonar - Ecommerce de Audio Profesional
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 [![React](https://img.shields.io/badge/React-19.1.0-61DAFB)](https://react.dev/)
@@ -7,7 +7,12 @@
 
 Tienda online especializada en equipos de audio profesional. Desarrollada con React + Firebase.
 
+## 🌐 Acceso  
+🔗 **URL oficial**: [https://ondasonar-store.web.app](https://ondasonar.netlify.app/)  
+🛠 **Repositorio**: [Ver código fuente](https://github.com/Lucia-rg/creaTuLandingRodriguez)
+
 ![Preview de la aplicación](/public/img/preview.png)
+
 
 ## 🌟 Características
 - ✅ Catálogo de productos (micrófonos, audífonos, accesorios, estudio de grabación)
