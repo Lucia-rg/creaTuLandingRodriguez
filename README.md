@@ -1,12 +1,27 @@
-# React + Vite
+# 🎵 Ondasonar - Ecommerce de Audio Profesional
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+[![React](https://img.shields.io/badge/React-19.1.0-61DAFB)](https://react.dev/)
+[![Firebase](https://img.shields.io/badge/Firebase-12.0.0-FFCA28)](https://firebase.google.com/)
+[![Vite](https://img.shields.io/badge/Vite-6.3.5-646CFF)](https://vitejs.dev/)
 
-Currently, two official plugins are available:
+Tienda online especializada en equipos de audio profesional. Desarrollada con React + Firebase.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Preview de la aplicación](/public/img/preview.png)
 
-## Expanding the ESLint configuration
+## 🌟 Características
+- ✅ Catálogo de productos (micrófonos, audífonos, accesorios, estudio de grabación)
+- ✅ Carrito de compras
+- ✅ Checkout para el pago
+- ✅ Diseño responsive con Bootstrap 5 + Sass
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tecnologías
+- **Frontend**: React 19, Vite, React Router 7
+- **Estilos**: Bootstrap 5, Bootstrap Icons, Sass
+- **Backend**: Firebase (Auth, Firestore)
+- **Tools**: ESLint
+
+## 🚀 Instalación
+1. Clonar repositorio:
+```bash
+git clone https://github.com/Lucia-rg/creaTuLandingRodriguez.git
